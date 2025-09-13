@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main (){
+	char a;
+	int marks;
+	printf("enter subject name :");
+	scanf("%s",&a);
+	printf("enter your marks :");
+	scanf("%d",&marks);
+	if(marks>=50){
+		printf("pass");
+	}else{
+		printf("fail");
+	}
+	return 0;
+}
